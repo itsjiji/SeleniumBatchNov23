@@ -11,9 +11,9 @@ import ReadData.readData;
 
 public class loginPage extends BasePage{ 
 	
-	WebDriver driver;
-	// 3.  Page Factory
-	public loginPage(WebDriver driver) {
+	WebDriver driver; 
+	
+	public loginPage(WebDriver driver) {    // 3.  Page Factory
 		super(driver);
 	}
 	

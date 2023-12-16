@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 public class BaseTest {
-	WebDriver driver;
+	WebDriver driver;      // this is base test
 	@BeforeClass
 	public void before() {
 		driver = new EdgeDriver();

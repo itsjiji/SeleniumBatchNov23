@@ -19,9 +19,9 @@ import Pages.productDetailsPage;
 import Pages.productsPage;
 import ReadData.readData;
 
-public class Tests extends BaseTest {
+public class Tests extends BaseTest {   
 	
-	@Test
+	@Test       // this is one test case
 	public void shopping() throws IOException {	   
 	new loginPage(driver).enterUsername(new readData().getUsername());  //Classname obj = new Classname();
 	new loginPage(driver).enterpassword(new readData().getPassword());
